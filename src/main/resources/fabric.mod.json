@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "newvanilla",
+	"version": "${version}",
+	"name": "newVanilla",
+	"description": "Eine Mod die Vanilla revolutioniert!",
+	"authors": [
+		"Astatic"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/newvanilla/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.astatic.newvanilla.NewVanilla"
+		],
+
+		"client": [
+			"de.astatic.newvanilla.NewVanillaClient"
+		],
+		"fabric-datagen": [
+			"de.astatic.newvanilla.NewVanillaDataGenerator"
+		]
+	},
+	"mixins": [
+		"newvanilla.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
