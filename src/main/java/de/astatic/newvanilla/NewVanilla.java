@@ -11,5 +11,6 @@ public class NewVanilla implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		System.out.println("");
 	}
 }
