@@ -1,5 +1,6 @@
 package de.astatic.newvanilla;
 
+import de.astatic.newvanilla.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class NewVanilla implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		System.out.println("");
+		ModItems.registerModItems();
 	}
 }
