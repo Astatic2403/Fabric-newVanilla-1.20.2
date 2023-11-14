@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item RAW_ASTANITE = registerItem("raw_astanite.json", new Item(new FabricItemSettings()));
+    public static final Item RAW_ASTANITE = registerItem("raw_astanite", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entires) {
         entires.add(RAW_ASTANITE);
