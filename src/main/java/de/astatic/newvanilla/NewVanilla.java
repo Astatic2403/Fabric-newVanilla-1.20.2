@@ -1,5 +1,7 @@
 package de.astatic.newvanilla;
 
+import de.astatic.newvanilla.block.ModBlocks;
+import de.astatic.newvanilla.item.ModItemGroups;
 import de.astatic.newvanilla.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +15,7 @@ public class NewVanilla implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "newvanilla:block/astanite_block"
+    }
+  }
+}

@@ -1,3 +1,12 @@
 {
-  "item.newvanilla.raw_astanite": "Raw Astanite"
+  "item.newvanilla.raw_astanite": "Raw Astanite",
+  "item.newvanilla.astanite_ingot": "Astanite Ingot",
+
+
+
+
+  "block.newvanilla.astanite_block": "Block of Astanite",
+
+
+  "itemgroup.astanite": "AstaniteMod"
 }
