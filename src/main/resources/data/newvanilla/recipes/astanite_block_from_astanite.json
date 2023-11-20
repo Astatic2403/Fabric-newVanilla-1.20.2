@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "newvanilla:astanite"
+    }
+  },
+  "result": {
+    "item": "newvanilla:astanite_block",
+    "count": 1
+  }
+}
